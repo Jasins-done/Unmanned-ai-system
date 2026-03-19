@@ -1,0 +1,11 @@
+# JMJ监控系统 - 真正的15秒执行（方案A）
+PATH=/home/admin/.npm-global/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/bin:/sbin
+
+# 第0秒执行
+
+# 第15秒执行
+
+# 第30秒执行
+
+# 第45秒执行
+# JMJ Cron保障 - 系统重启后确保cron服务运行

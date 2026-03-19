@@ -1,0 +1,40 @@
+# JMJ监控系统 - 飞书配置示例
+# 请根据实际情况修改以下配置
+
+# 飞书目标用户/群组ID
+FEISHU_TARGET="ou_bb7933f027e5a2b988a89e86cbc32a32"
+
+# 远程任务接口URL
+API_URL="http://47.104.242.199:8081/list-tasks"
+
+# 通知频率配置
+NOTIFY_FREQUENCY=8          # 每8次轮询发送一次状态报告
+ERROR_THRESHOLD=3           # 连续错误阈值
+HEARTBEAT_INTERVAL=300      # 心跳检查间隔（秒）
+
+# 日志配置
+LOG_FILE="/home/admin/.jmj_monitor.log"
+BACKUP_LOG="/tmp/jmj_backup_monitor.log"
+HEARTBEAT_LOG="/tmp/jmj_heartbeat.log"
+
+# 系统路径
+PROCESSED_FILE="/home/admin/.processed_tasks"
+OPENCLAW_PATH="/home/admin/.npm-global/bin/openclaw"
+MONITOR_DIR="/opt/jmj-monitor-system-backup"
+
+# ==================== 配置说明 ====================
+# 1. FEISHU_TARGET: 飞书用户或群组的open_id
+#    获取方式: 在飞书中查看用户/群组详情
+#
+# 2. API_URL: JMJ任务接口地址
+#    默认: http://47.104.242.199:8081/list-tasks
+#
+# 3. NOTIFY_FREQUENCY: 状态报告频率
+#    值越大，通知越少；值越小，通知越频繁
+#    建议: 8（每2分钟发送一次状态报告）
+#
+# 4. ERROR_THRESHOLD: 错误容忍度
+#    连续错误达到此阈值时发送警报
+#    建议: 3（连续3次错误发送警报）
+#
+# 5. 路径配置: 请确保所有路径正确
