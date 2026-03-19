@@ -1,11 +1,12 @@
-# JMJ监控系统 - 真正的15秒执行（方案A）
+# JMJ Monitoring System - True 15-Second Execution (Plan A)
 PATH=/home/admin/.npm-global/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/bin:/sbin
 
-# 第0秒执行
+# Execute at 0 seconds
 
-# 第15秒执行
+# Execute at 15 seconds
 
-# 第30秒执行
+# Execute at 30 seconds
 
-# 第45秒执行
-# JMJ Cron保障 - 系统重启后确保cron服务运行
+# Execute at 45 seconds
+
+# JMJ Cron Guarantee - Ensure cron service runs after system reboot
