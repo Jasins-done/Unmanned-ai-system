@@ -193,6 +193,14 @@ ping -c 3 47.104.242.199
 ## 📞 Support
 For issues, check logs or contact the maintainer.
 
+### 💬 Feedback & Support
+Your feedback is highly appreciated!  
+If you encounter any bugs, have feature requests, or want to contribute to this project, please feel free to reach out:
+
+- **Email**: [2112536798@qq.com](mailto:2112536798@qq.com)
+- We welcome your suggestions and will respond as soon as possible.
+- Your support helps us improve the system and deliver a better experience.
+
 ---
 **Installed at**: $(date)
 **Version**: v1.0.0 (Testing)
